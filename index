@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Laxminarayan - Data Analyst</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Pure black background */
+            color: #fff; /* White text */
+        }
+        header {
+            background-color: #111; /* Darker black for contrast */
+            color: #f4f4f4; /* Slightly off-white text */
+            padding: 20px 10%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #111; /* Section background slightly lighter */
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #e5e5e5; /* Light gray for headings */
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #dcdcdc; /* Subtle gray for links */
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        .contact a:hover {
+            color: #fff; /* Bright white hover */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rohit Laxminarayan</h1>
+        <p>Data Analyst</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>An entry-level Data Analyst with experience in data cleaning, reporting, and automation using SQL, Python, and Excel. Skilled at creating effective dashboards and reports to support data-driven decision-making.</p>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <h3>Startek - Data Operations Analyst (2024 - Present)</h3>
+        <ul>
+            <li>Designed and executed complex SQL queries to extract and manipulate large datasets, reducing query execution time by 20%.</li>
+            <li>Automated routine data-cleaning tasks using Python, saving 15+ hours per week on manual work.</li>
+            <li>Developed and maintained advanced Excel reports with charts and pivot tables for real-time performance tracking.</li>
+        </ul>
+        <h3>Genisys - Data Operations Analyst Intern (2023 - 2024)</h3>
+        <ul>
+            <li>Performed data entry, cleaning, and formatting tasks using Excel, ensuring data consistency and accuracy.</li>
+            <li>Gained hands-on experience in writing basic SQL queries to retrieve and update data in databases.</li>
+            <li>Supported the team in troubleshooting minor data discrepancies, improving reporting accuracy by 10%.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <h3>Sales Data Analysis</h3>
+        <ul>
+            <li>Analyzed monthly sales data using Excel and SQL, identifying top-performing regions and improving forecast accuracy by 15%.</li>
+            <li>Created dynamic reports with pivot tables and charts to visualize sales trends.</li>
+        </ul>
+        <h3>Customer Feedback Analysis</h3>
+        <ul>
+            <li>Processed customer feedback data using Python to identify sentiment trends.</li>
+            <li>Provided actionable insights to the team, leading to a 10% improvement in customer satisfaction.</li>
+        </ul>
+        <h3>Data Visualization for Business Insights</h3>
+        <ul>
+            <li>Helps to visualize data sets and highlight key points to drive business decisions effectively.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>SQL, Python, Microsoft Excel</li>
+            <li>Data Analysis: Cleaning, validation, and trend analysis</li>
+            <li>Reporting: Dashboards and detailed reporting</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <h3>Vellore Institute of Technology (VIT)</h3>
+        <p>Post Graduate Program in Data Science (2024 - 2025)</p>
+        <h3>Vels Institute of Science, Technology & Advanced Studies (VISTAS)</h3>
+        <p>Bachelor of Computer Applications in Data Science (2020 - 2023)</p>
+    </section>
+
+    <section>
+        <h2>Certifications</h2>
+        <ul>
+            <li>SQL for Data Analysis – IBM, 2023</li>
+            <li>Python for Data Science – Great Learning, 2023</li>
+            <li>Excel – Simplilearn, 2020</li>
+        </ul>
+    </section>
+
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:rohitlaxminarayan@outlook.com">rohitlaxminarayan@outlook.com</a></p>
+        <p>Phone: +91 7483100828</p>
+        <p>LinkedIn: <a href="http://linkedin.com/in/rohit-laxminarayan" target="_blank">linkedin.com/in/rohit-laxminarayan</a></p>
+        <p>GitHub: <a href="https://github.com/rohit-laxminarayan" target="_blank">github.com/rohit-laxminarayan</a></p>
+    </div>
+</body>
+</html>
