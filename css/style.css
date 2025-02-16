@@ -485,14 +485,6 @@ section.work .card-wrapper .card img{
     height: 500px;
     width: 550px;
 }
-.left img {
-    border-radius: 50%;
-    object-fit: cover;
-    width: 200px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    border: 3px solid #fff; /* Optional: Add a border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
-}
 
 section.contact .card-wrapper{
     display: grid;
