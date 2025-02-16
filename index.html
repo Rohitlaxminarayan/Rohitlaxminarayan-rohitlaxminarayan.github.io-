@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,65 +13,182 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class="flex items-center justify-between">
-                <div class="branding">
-                    <img src="./images/favicon.ico" alt="Logo" height="30" width="30">
-                </div>
-                <div>
+
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li>
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
                     <a href="#experience">Experience</a>
                     <a href="#projects">Projects</a>
                     <a href="#contact">Contact</a>
-                </div>
-            </nav>
-            <div class="hero">
-                <h1>Rohit Laxminarayan</h1>
-                <h6>Data Analyst</h6>
-                <p>Experienced in data cleaning, reporting, and automation with SQL, Python, and Excel.</p>
-            </div>
+                    <a href="https://github.com/rohit-laxminarayan">Github Profile</a>
+                </li>
+            </ul>
         </div>
-    </header>
 
-    <section id="about">
-        <h1>About Me</h1>
-        <p>An entry-level Data Analyst with experience in data cleaning, reporting, and automation using SQL, Python, and Excel.</p>
-    </section>
+        <header>
+            <div id="home" class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/favicon.ico" alt="" height="30" width="30">
+                        </div>
+                        <div>
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#experience">Experience</a>
+                            <a href="#projects">Projects</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="btn btn-primary" onclick="location.href='https://github.com/rohit-laxminarayan'">
+                            Github Profile
+                        </button>
+                    </div>
+                </nav>
 
-    <section id="experience">
-        <h1>Work Experience</h1>
-        <h3>Startek - Data Operations Analyst (2024 - Present)</h3>
-        <ul>
-            <li>Executed complex SQL queries and automated data-cleaning tasks using Python.</li>
-            <li>Developed advanced Excel reports with charts and pivot tables.</li>
-        </ul>
-        <h3>Genisys - Data Operations Analyst Intern (2023 - 2024)</h3>
-        <ul>
-            <li>Performed data cleaning tasks and supported reporting accuracy improvements.</li>
-        </ul>
-    </section>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex flex justify-center">
+                        <img src="./images/profile.jpg" alt="Rohit Laxminarayan">
+                    </div>
+                    <div class="right flex-1">
+                        <h1>Rohit Laxminarayan</h1>
+                        <h6>Data Analyst</h6>
+                        <p>I am a detail-oriented Data Analyst experienced in data cleaning, reporting, and automation using SQL, Python, and Excel. Passionate about turning data into actionable insights and supporting data-driven decision-making.</p>
 
-    <section id="projects">
-        <h1>Projects</h1>
-        <h3>Sales Data Analysis</h3>
-        <p>Analyzed sales trends using Excel and SQL, improving forecast accuracy.</p>
-        <h3>Customer Feedback Analysis</h3>
-        <p>Identified sentiment trends from feedback data using Python.</p>
-    </section>
+                        <div>
+                            <button class="btn btn-secondary"
+                                onClick="location.href='https://drive.google.com/your-resume-link'">
+                                Check Resume
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    <section id="contact">
-        <h1>Contact</h1>
-        <p>Email: <a href="mailto:rohitlaxminarayan@outlook.com">rohitlaxminarayan@outlook.com</a></p>
-        <p>Phone: +91 7483100828</p>
-        <p>LinkedIn: <a href="http://linkedin.com/in/rohit-laxminarayan">linkedin.com/in/rohit-laxminarayan</a></p>
-        <p>GitHub: <a href="https://github.com/rohit-laxminarayan">github.com/rohit-laxminarayan</a></p>
-    </section>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap justify-between">
+                <div class="flex-1 left">
+                    <img class="about-me-img" src="./images/data-analysis.gif" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About<span> Me</span></h1>
+                    <h3>Hello! I'm Rohit</h3>
+                    <p>I am an entry-level Data Analyst with experience in data cleaning, reporting, and automation using SQL, Python, and Excel. I am passionate about leveraging data to solve complex business problems and derive meaningful insights. Skilled in creating dashboards and reports to support business decisions effectively.</p>
+                    <div class="social">
+                        <a href="https://github.com/rohit-laxminarayan"><img src="./images/github.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/rohit-laxminarayan"><img src="./images/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-        <p>© Designed by Rohit Laxminarayan. All Rights Reserved.</p>
-    </footer>
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h1 class="section-heading-white">My<span> Experience</span></h1>
+                <div class="timeline_wrapper">
+                    <div class="part2">
+                        <h3>Startek - Data Operations Analyst (2024 - Present)</h3>
+                        <ul>
+                            <li>Designed and executed complex SQL queries to extract and manipulate large datasets, reducing query execution time by 20%.</li>
+                            <li>Automated routine data-cleaning tasks using Python, saving 15+ hours per week on manual work.</li>
+                            <li>Developed and maintained advanced Excel reports with charts and pivot tables for real-time performance tracking.</li>
+                        </ul>
 
+                        <h3>Genisys - Data Operations Analyst Intern (2023 - 2024)</h3>
+                        <ul>
+                            <li>Performed data entry, cleaning, and formatting tasks using Excel, ensuring data consistency and accuracy.</li>
+                            <li>Gained hands-on experience in writing basic SQL queries to retrieve and update data in databases.</li>
+                            <li>Supported the team in troubleshooting minor data discrepancies, improving reporting accuracy by 10%.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h1 class="section-heading"> <span>My</span> Projects</h1>
+                <p>Projects I have worked on to demonstrate my skills in data analysis:</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <h2>Sales Data Analysis</h2>
+                        <p>Analyzed monthly sales data using Excel and SQL, identifying top-performing regions and improving forecast accuracy by 15%. Created dynamic reports with pivot tables and charts to visualize sales trends.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Customer Feedback Analysis</h2>
+                        <p>Processed customer feedback data using Python to identify sentiment trends. Provided actionable insights to the team, leading to a 10% improvement in customer satisfaction.</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>Data Visualization for Business Insights</h2>
+                        <p>Developed interactive dashboards using Python and Matplotlib to visualize key business metrics, helping stakeholders make data-driven decisions effectively.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact<span> Me</span></h1>
+                <p>You can reach me using the following contact details:</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone.svg" alt="" height="100px" width="100px">
+                        <h2>Call Me On</h2>
+                        <h6>+91 7483100828</h6>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/gmail.svg" alt="" height="100px" width="100px">
+                        <h2>Email Me At</h2>
+                        <h6>rohitlaxminarayan@outlook.com</h6>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/linkedin.svg" alt="" height="100px" width="100px">
+                        <h2>LinkedIn</h2>
+                        <h6><a href="https://www.linkedin.com/in/rohit-laxminarayan" target="_blank">linkedin.com/in/rohit-laxminarayan</a></h6>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/github.svg" alt="" height="100px" width="100px">
+                        <h2>GitHub</h2>
+                        <h6><a href="https://github.com/rohit-laxminarayan" target="_blank">github.com/rohit-laxminarayan</a></h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <h1 class="section-heading-white">Follow<span> Me</span></h1>
+            <div class="footer-socials">
+                <a href="https://github.com/rohit-laxminarayan"><img src="./images/github.svg" alt="" height="50px" width="50px"></a>
+                <a href="https://www.linkedin.com/in/rohit-laxminarayan"><img src="./images/linkedin.svg" alt="" height="50px" width="50px"></a>
+            </div>
+
+            <div class="copyright">
+                © Designed by Rohit Laxminarayan. All Rights Reserved.
+            </div>
+        </footer>
+
+    </div>
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
